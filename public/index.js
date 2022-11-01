@@ -21,7 +21,7 @@ import {
   where,
 } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.js';
 
-import * as firebaseui from 'firebaseui';
+import * as firebaseui from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-ui.js';
 
 // Document elements
 const startRsvpButton = document.getElementById('startRsvp');
