@@ -1,5 +1,4 @@
 // Firebase App (the core Firebase SDK) is always required
-
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js';
 
 // Add the Firebase products and methods that you want to use
