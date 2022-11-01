@@ -1,6 +1,6 @@
 // Firebase App (the core Firebase SDK) is always required
 
-import { initializeApp } from 'firebase/app';
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js';
 
 // Add the Firebase products and methods that you want to use
 import {
@@ -8,7 +8,7 @@ import {
   EmailAuthProvider,
   signOut,
   onAuthStateChanged,
-} from 'firebase/auth';
+} from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-auth.js';
 import {
   getFirestore,
   addDoc,
@@ -19,7 +19,7 @@ import {
   doc,
   setDoc,
   where,
-} from 'firebase/firestore';
+} from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.js';
 
 import * as firebaseui from 'firebaseui';
 
